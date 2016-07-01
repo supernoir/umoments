@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Adelle', 'Helvetica Neue', 'Helvetica', sans-serif; }
+
+.umotivate_team-member-choice {
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center; }
+
+#umotivate_team-member {
+  margin: 20px;
+  padding: 20px; }
+
+#umotivate_team-member-img {
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px; }
+  #umotivate_team-member-img:hover {
+    border: 5px solid pink; }
+
+#umotivate_team-member-link {
+  color: #00a0dc;
+  text-decoration: none; }
+  #umotivate_team-member-link:hover {
+    color: pink; }

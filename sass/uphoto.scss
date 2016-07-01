@@ -1,0 +1,27 @@
+
+$background: rgb(0,0,0);
+$primary-color: rgb(0,160,220);
+
+
+
+body {
+    background-color: $background;
+    color: white;
+    font-family: 'Adelle', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#uphoto_team-img{
+    width: 450px;
+    height: auto;
+    border: 5px solid white;
+    transform: rotate(-15deg) translate(100px,50px);
+-webkit-box-shadow: 0 4px 9px -8px #000000;
+}
+
+#uphoto_reaction-img{
+    width: 300px;
+    height: auto;
+    border: 5px solid white;
+    transform: rotate(10deg) translate(-50px,-100px);
+    -webkit-box-shadow: 0 4px 9px -8px #000000;
+}
